@@ -1,0 +1,82 @@
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  padding: 5px;
+  border: 10px solid crimson;
+  margin: 0px;
+  background-color: coral;
+}
+.contenedorHijo {
+  padding: 10px;
+  height: 20%;
+  text-align: center;
+}
+h1 {
+  font-size: 50px;
+  color: crimson;
+  text-align: center;
+}
+h2 {
+  color: crimson;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+h3 {
+  font-size: 25px;
+  color: rgb(167, 40, 61);
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: beige;
+  text-align: justify;
+}
+.parrafo-centrado {
+  text-align: center;
+}
+.lista {
+  list-style-type: square;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: beige;
+  font-size: 20px;
+}
+.entrada {
+  width: 300px;
+  height: 30px;
+}
+.carrusel {
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.texto {
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: crimson;
+}
+.fotos {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.contenedortexto {
+  padding: 20px;
+}
+
+img {
+  width: 70%;
+}
